@@ -27,7 +27,9 @@ public class conexion {
         } catch (SQLException ex) {
             System.out.println("No estas conectado");
             JOptionPane.showMessageDialog(null, "Sistema fuera de linea");
+            System.out.println("Hola");
         }
         return conect;
+        
     }
 }
